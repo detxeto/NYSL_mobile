@@ -1,0 +1,1114 @@
+/*-------------------------header----------------------------*/
+.navbutton {
+
+    height: 12vh;
+    display: flex;
+    margin-top: 4vh;
+    background-color: darkgreen;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+
+}
+
+.mainTitle {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin-right: 6vh;
+	
+}
+.textTitle{
+	font-weight: 800;
+	font-size: xx-large;
+	
+}
+
+.generalMenu {
+    background-color: greenyellow;
+    display: inline-block;
+
+
+
+}
+
+
+.barMenu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+
+}
+
+.nyslLogo {
+    width: 9vh;
+    height: 9vh;
+    background-image: url(../images/nysl_logo.png);
+    background-size: cover;
+
+
+
+
+}
+
+.homeContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+}
+/*--------------footer------------------------------------*/
+.footer {
+    background-image: url(../images/cesped_horizontal.jpg);
+    background-size: cover;
+    height: 13vh;
+}
+
+
+
+.varIconHome {
+    width: 9vh;
+    height: 9vh;
+    background-image: url(../images/icon/baseline_home_black_18dp.png);
+    background-size: cover;
+    margin-top: 2vh;
+}
+
+.varIconCal {
+    width: 9vh;
+    height: 9vh;
+    background-image: url(../images/icon/baseline_today_black_18dp.png);
+    background-size: cover;
+    margin-top: 2vh;
+
+}
+
+.varIconTeam {
+    width: 9vh;
+    height: 9vh;
+    background-image: url(../images/icon/baseline_star_black_18dp.png);
+    background-size: cover;
+    margin-top: 2vh;
+}
+
+.varIconLogIn {
+    width: 9vh;
+    height: 9vh;
+    background-image: url(../images/icon/baseline_chat_black_18dp.png);
+    background-size: cover;
+    margin-top: 2vh;
+
+
+}
+
+.varIconClass {
+    width: 9vh;
+    height: 9vh;
+    background-image: url(../images/icon/baseline_show_chart_black_18dp.png);
+    background-size: cover;
+    margin-top: 2vh;
+
+}
+
+.footerDiv {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+
+
+/*/index--------------*/
+.mainHeight {
+    height: 70vh;
+	
+    background-color: darkgray;
+	font-weight: 800;
+	font-size:large;
+}
+
+.indexBoxes {
+
+    height: 25%;
+    text-align: center;
+    border: solid;
+    border-width: 1vh;
+    /*    border-radius: 2vh;*/
+    border-color: darkgreen;
+/*    background-color: white;*/
+
+}
+
+.imgIndex {
+    background-image: url(../images/fondoIndex.jpg);
+    background-size:cover;
+
+
+
+}
+.imgIndex2 {
+    background-image: url(../images/team%20bak.jpg);
+    background-size:cover;
+
+
+
+}
+.imgIndex3 {
+    background-image: url(../images/depositphotos_9246448-stock-photo-football-the-ball-flies-into2.jpg);
+    background-size:cover;
+
+
+
+}
+.imgIndex4 {
+    background-image: url(../images/vass.jpg);
+    background-size:cover;
+
+
+
+}
+
+.anchorInBoxes {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    color: red;
+    margin-top: 5vh;
+    font-size: 4vh;
+    font:
+}
+
+
+
+.mainAbout {
+
+    height: 70vh;
+    border: solid;
+    border-width: 1vh;
+    border-color: darkgreen;
+    color: black;
+    background-color: gainsboro;
+    overflow-y: scroll;
+    text-align: justify;
+}
+/*rules*/
+
+.envelope {
+
+    width: 9vh;
+    height: 9vh;
+    background-image: url(../images/icon/baseline_mail_outline_black_18dp.png);
+    background-size: cover;
+    margin-top: 2vh;
+
+}
+
+.contactDiv {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.arsenalButton {
+    /*    width: 45vh;*/
+    height: 15hv;
+}
+/*teams--------------*/
+.arsenalCase {
+    display: inline-flex;
+    justify-content: space-between;
+/*    margin-top: 2vh;*/
+/*	margin-bottom: 2vh;*/
+}
+.teamBoxes {
+
+
+    height: 25%;
+
+    border: solid;
+    border-width: 1vh;
+
+    border-color: darkgreen;
+    background-image:url(../images/teams122.jpg);
+	background-size: cover;
+}
+.teamName {
+    color: black;
+    font-size: xx-large;
+    height: 25%;
+    width: 40%;
+	font-weight: 800;
+	margin-top: 3vh;
+
+}
+/*team-----*/
+
+.teamBackground{
+	background-image:url(../images/team52.jpg);
+	background-size: cover;
+	
+	
+}
+.teamDetail{
+	border-bottom: solid;
+	border-bottom-color: black;
+	color: #088A29;
+	font-weight: 800;
+	font-size: large;
+}
+.teamInDetail{
+	color:#2EFE9A;
+}
+
+.playersName {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.players {
+    width: 70vh;
+    height: 50vh;
+
+}
+
+.arsP1 {
+
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Arsenal/seeman.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.arsP2 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Arsenal/adams.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.arsP3 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Arsenal/hleb.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.arsP4 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Arsenal/alexis.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.arsP5 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Arsenal/bergkamp.jpg);
+    background-size: cover;
+    display: flex;
+
+
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 25vh;
+    height: 9vh;
+    background-color: gainsboro;
+
+}
+
+
+
+.cheP1 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Chelsea/cech.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.cheP2 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Chelsea/terry.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.cheP3 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Chelsea/lampard.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.cheP4 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Chelsea/zola.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.cheP5 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Chelsea/drogba.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.arsenalLogo {
+
+    width: 12vh;
+    height: 12vh;
+    background-image:url(../images/teams/Arsenal/arsenal.png);
+    background-size: cover;
+
+    display: flex;
+    flex-flow: row-reverse;
+    vertical-align: top;
+}
+.chelseaLogo {
+    width: 12vh;
+    height: 12vh;
+    background-image: url(../images/teams/Chelsea/chelsea.png);
+    background-size: cover;
+
+    display: flex;
+    flex-flow: row-reverse;
+    vertical-align: top;
+
+}
+
+.liverpoolLogo {
+
+    width: 12vh;
+    height: 12vh;
+    background-image: url(../images/teams/Liverpool/liverpool.png);
+    background-size: cover;
+
+    display: flex;
+    flex-flow: row-reverse;
+    vertical-align: top;
+}
+
+.mancityLogo {
+
+    width: 12vh;
+    height: 12vh;
+    background-image: url(../images/teams/ManCity/mancity.png);
+    background-size: cover;
+
+    display: flex;
+    flex-flow: row-reverse;
+    vertical-align: top;
+}
+
+.manuLogo {
+
+    width: 12vh;
+    height: 12vh;
+    background-image: url(../images/teams/ManUnited/manu.png);
+    background-size: cover;
+
+    display: flex;
+    flex-flow: row-reverse;
+    vertical-align: top;
+}
+
+.tottLogo {
+
+    width: 12vh;
+    height: 12vh;
+    background-image: url(../images/teams/Tottenham/tottenham.png);
+    background-size: cover;
+
+    display: flex;
+    flex-flow: row-reverse;
+    vertical-align: top;
+}
+
+.livP1 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Liverpool/schmeichel.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.livP2 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Liverpool/masche.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.livP3 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Liverpool/gerrard.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.livP4 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Liverpool/carragher.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.livP5 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Liverpool/suarez.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.mancP1 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/ManCity/valdes.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.mancP2 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/ManCity/puyol.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.mancP3 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/ManCity/xavi.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.mancP4 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/ManCity/iniesta.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.mancP5 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/ManCity/messi.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.manuP1 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/ManUnited/vandersar.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.manuP2 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/ManUnited/scholes.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.manuP3 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/ManUnited/crispado.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.manuP4 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/ManUnited/beckham.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.manuP5 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/ManUnited/cantona.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.tottP1 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Tottenham/higita.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.tottP2 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Tottenham/bogarde.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.tottP3 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Tottenham/modric.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.tottP4 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Tottenham/arda.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.tottP5 {
+    width: 5vh;
+    height: 5vh;
+    background-image: url(../images/teams/Tottenham/kane.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+
+.playersBox {
+
+
+    width: 25vh;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+
+
+.playerMainBox {
+
+    border: solid;
+    border-color: black;
+}
+
+.teamSign {
+    width: 9vh;
+    height: 9vh;
+    background-color: black;
+}
+/*calendar---------------*/
+.calendarBoxes {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    color: red;
+    margin-top: 2vh;
+    font-size: 4vh;
+
+}
+.calendarBigBox{
+	height: 25%;
+    text-align: center;
+    border: solid;
+    border-width: 1vh;
+  background-color: #191B1A;
+    border-color: darkgreen;
+
+
+}
+.calendarHeadBoxes{
+	background-color: gainsboro;
+	border:solid;
+	border-bottom-width: 1vh;
+	border-color:black;
+	display: flex;
+	justify-content: space-between;
+}
+.calendarHeadInBox{
+	font-size:4vh;
+}
+
+.matchBox {
+    display: inline-flex;
+justify-content: space-between;
+}
+
+.matchBoxes {
+    display: inline-flex;
+    flex-flow: column;
+}
+
+
+
+/*---ranking-------------*/
+
+.rankingBox {
+    height: 10vh;
+    text-align: center;
+    border: solid;
+    border-width: 1vh;
+    /*    border-radius: 2vh;*/
+    border-color: darkgreen;
+    background-color: white;
+
+}
+
+.rankingHeadBox {
+    height: 10vh;
+    text-align: center;
+    border: solid;
+    border-width: 1vh;
+    /*    border-radius: 2vh;*/
+    border-color: darkgreen;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.rankingText {
+
+    text-align: center;
+    margin-top: 2vh;
+}
+.rankingBoxes {
+
+    height: 10vh;
+    text-align: center;
+    border: solid;
+    border-width: 1vh;
+    /*    border-radius: 2vh;*/
+    border-color: darkgreen;
+    background-color: #191B1A;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*---------match*----------*/
+
+
+.dayMatch {
+
+    display: inline-flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+    width: 100%;
+    align-items: center;
+
+
+
+
+}
+
+.dateMatch {
+
+    display: flex;
+    justify-content: space-around;
+    height: 7vh;
+    margin-top: 5vh;
+}
+
+.formation {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+
+}
+
+.formationRival {
+    display: flex;
+    margin-top: 22vh;
+    flex-flow: column;
+    width: 100%;
+}
+
+.keeperP {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: ;
+    margin-top: 1vh;
+}
+
+.defenseP {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vh;
+
+}
+
+.keeperL {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-right: ;
+    margin-top: 1vh;
+}
+
+.defenseL {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /*margin-top: 1vh;*/
+
+}
+
+/*---results------------*/
+/*calrndarHeadBoxes+rankingBoxes+TeamDetail*/
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vh;
+}
+
+.teamBigSign {
+
+    width: 15vh;
+    height: 15vh;
+    background-color: black;
+}
+
+.teamBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.teams {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vh;
+    vertical-align: middle;
+
+}
+
+
+
+.teamNames {
+    margin-top: 5vh;
+}
+
+fieldMap {
+    width: 30vh;
+    height: 70vh;
+
+
+
+
+}
+
+.ground {
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+
+
+}
+
+
+
+.matchBackground{
+	background-image:url(../images/team41.jpg);
+	background-size: cover;
+	
+	
+}
+.mapBox {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/campo-futbol-vista-superior_23-2147510798.jpg);
+    background-size: cover;
+}
+
+.mapMainBox {
+    width: 100%;
+    height: 50vh;
+
+}
+
+.mapButton {
+    width: 100%;
+}
+
+
+
+.resultsBox{
+	display: flex;
+	
+}.resultsBox2{
+	display: flex;
+	
+}
+.pichichiText {
+    height: 10vh;
+    text-align: center;
+    border: solid;
+    border-width: 1vh;
+background-color: gainsboro;
+    border-color: black;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.pichichiTextBox {
+    height: 10vh;
+    text-align: center;
+    border: solid;
+    border-width: 1vh;
+    border-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    background-color:#191B1A ;
+	color:#2EFE9A;
+
+}
+
+.classText {
+    display: inline-flex;
+    justify-content: space-around;
+    height: 10vh;
+    width: 25vh;
+
+}
+
+
+
+.chatBoxes {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+/*scroll-behavior: smooth;*/
+    color: #66ff1a;
+
+    font-size: 4vh;
+    height: 70vh;
+	
+}
+
+
+/*chat*/
+.chatBox{
+	scroll-behavior: smooth;
+	
+	
+	 
+}
+
+.chatButton{
+height: 5hv;
+	width: 15vh;
+	border:solid;
+	border-width: 1vh;
+	border-color: black;
+	background-color: darkred;
+	border-radius: 2vh;
+}
+.chatSend{
+	height: 9hv;
+	width: 8vh;
+	border:solid;
+	border-width: 1vh;
+	border-color: black;
+	background-image: url(../images/icon/baseline_send_black_18dp.png);
+	
+	border-radius: 2vh;
+	background-color:darkred;
+	
+	
+}
+
+
+.resultTextBox{
+	display:flex;
+	justify-content: flex-end;
+    margin-top: 2vh;
+	margin-right: 10vh,
+}
+.textInMenu{
+	
+	font-weight: 600;
+	font-size: x-large;
+}
+
+.input{
+	border-radius: 2vh;
+	border:solid;
+	border-color: black;
+}
+.chat{
+	border-radius: 2vh;
+	border:solid;
+	border-color:black;
+}
+.box{
+	border-radius: 2vh;
+/*
+	border:solid;
+	border-color:#2EFE9A;
+*/
+
+}
+.chatAbout{
+	 height: 70vh;
+    border: solid;
+    border-width: 1vh;
+    border-color: darkgreen;
+    color: black;
+    background-color: black;
+    overflow-y: scroll;
+    text-align: justify;
+}
+.main{
+	background-color: #191B1A;
+}
+.divBoxesChat{
+	
+	color:	black;
+border-radius: 2vh;
+	background-color: transparent;
+	display:flex;
+	
+	
+}
+.class{
+	border:solid;
+	border-color: palevioletred;
+	color:black;
+	background-color: yellow;
+}
+.myMessage{
+	background-color:gainsboro;
+	border:solid;
+	border-color: darkred;
+	border-radius: 2vh;
+	color:black;
+	margin-left: 2vh;
+	align-self: flex-start;
+   text-align: left;
+	 
+	
+}
+.yourMessage{
+		background-color: gray;
+	border:solid;
+	border-color: #99ff66;
+	border-radius: 2vh;
+	color:black;
+	 align-self: flex-end;
+   text-align: left;
+	width: 85%;
+	
+	
+}
+.p{
+	color:pink;
+	margin-left: 1vh;
+}
+
+/* Landscape */
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+.mapBox {
+    width: 100%;
+    height: 50vh;
+    background-image: url(../images/campo-futbol-vista-superior_23-2147510798.jpg);
+    background-size: cover;
+}
+
+
+}
+/*si no llega  600px se aplica el color definido abajo*/
+@media only screen and (max-width: 600px) {
+  .anchorInBoxes {
+    color: orangered;
+  }
+	
+.footer {
+    background-image: url(../images/cesped_horizontal.jpg);
+   
+}
+	.imgIndex4 {
+    background-image: url(../images/fondoIndex.jpg);
+    
+}
+.imgIndex3 {
+    background-image: url(../images/team%20bak.jpg);
+    
+}
+	.imgIndex2 {
+    background-image: url(../images/depositphotos_9246448-stock-photo-football-the-ball-flies-into2.jpg);
+   
+}
+.imgIndex{
+    background-image: url(../images/vass.jpg);
+   
+}
+	.teamBoxes {
+   
+    background-image:url(../images/teams122.jpg);
+	
+}
+.teamBackground{
+	background-image:url(../images/team52.jpg);
+
+}
+	
+.mapBox {
+   
+    background-image: url(../images/campo-futbol-vista-superior_23-2147510798.jpg);
+   
+}	
+	
+}
+
+
+
+/
